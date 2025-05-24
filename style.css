@@ -31,7 +31,7 @@
     width: 100%;
     max-width: 750px;
     text-align: center;
-    font-family: cursive;
+    font-family: var(--font-mono);
     background-color: var(--bg-main);/* Sedikit lebih opaque <-- BARIS INI YANG DIUBAH */
     padding: 30px 20px;
     border: var(--border-strong);
@@ -341,7 +341,7 @@ Tidak perlu .show lagi karena animasi langsung dari CSS
 }
 
 .description-1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-family: var(--font-mono); 
     font-size: clamp(1rem, 2.5vw, 1rem); 
     max-width: 550px;
     margin: 0 auto;
